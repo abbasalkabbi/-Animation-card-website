@@ -1,0 +1,136 @@
+*,html{padding: 0;margin: 0;box-sizing: border-box; font-weight: bold;transform-style: preserve-3d; transition: all 1s ease-out;}
+.container{
+    display:flex;
+    margin:auto;
+    width: 600px;
+    height: 860px;
+ 
+}
+body{
+    perspective: 1000px;
+    
+}
+.card{
+    border-radius: 10px;
+    margin: 50px auto;
+    transform-style: preserve-3d;
+    box-shadow:
+                10px 10px 10px rgba(0, 0, 0,0.2),
+               -10px -10px 10px  rgba(0, 0, 0,0.2);
+    width: 400px;
+    height: 700px;
+    
+
+}
+/*Style for header */
+.card header{
+    margin: 10px 0 0 0;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 100%; 
+    
+}
+.card header .circle{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(to right, #766dfe , #88f2ff);
+    border-radius: 50%;
+    z-index: 1;
+}
+.card header .image{
+    z-index: 2;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+   
+   
+
+}
+.card header .image img{
+    width: 100%;
+    margin-top: -40px;
+  
+}
+/*End Style for header */
+/*Start style for content */
+.content h1  {
+    font-size: 2rem;
+    text-align:center ;
+}
+.content h2{
+    font-size: 1.5rem;
+    text-align:center ;
+}
+/*Style for info in content*/
+.info ul li {
+  list-style: none;
+  display: flex;
+  float: right;
+  width: 50%;
+  justify-content: space-around;
+  padding-top:25px;
+  font-size: 1.5rem;
+ 
+}
+/*End style for content */
+/*Style for footer */
+footer .color{
+    margin-top: 100px;
+}
+/*style for div color*/
+
+footer .color button{
+    
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 20px;
+    cursor: pointer; 
+}
+footer .color button:first-of-type{
+  background-color: #000F44;
+ 
+}
+footer .color button:nth-of-type(2){
+    background-color: #f3f2e7;
+    
+  }
+  footer .color button:nth-of-type(3){
+    background-color: #ffc1cc;
+   
+  }
+/*Style for div price*/
+  footer .price h3{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2rem;
+  }
+/*Style for div buy */
+.buy{
+    margin:10px 0  0  0 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buy button{
+    text-align: center;
+    background-image: linear-gradient(to right, #766dfe , #88f2ff);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer; 
+}
+/*End style for footer */
