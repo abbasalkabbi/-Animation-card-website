@@ -4,6 +4,7 @@
     margin:auto;
     width: 600px;
     height: 860px;
+    cursor: move;
  
 }
 body{
@@ -83,7 +84,7 @@ footer .color{
 /*style for div color*/
 
 footer .color button{
-    
+    cursor: progress;
     border: none;
     color: black;
     padding: 10px 20px;
@@ -93,7 +94,8 @@ footer .color button{
     font-size: 16px;
     margin: 4px 2px;
     margin-top: 20px;
-    cursor: pointer; 
+    cursor: pointer;
+    
 }
 footer .color button:first-of-type{
   background-color: #000F44;
